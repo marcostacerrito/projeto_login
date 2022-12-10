@@ -40,10 +40,16 @@ section#login {
 
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.45); /* comando para fazer sombra na volta do quadro */
 
+    transition: width .3s, height .3s; 
+    /* esse comando é pra fazer uma animação, ele muda mais rapido o aumento e diminuição da tela */
+
+    transition-timing-function: ease ;
+    /* para dar uma suavizada na animação quando passa de uma tela para outra.  */
+
 }
 
 section#login > div#imagem {
-    display: block; /* para er exibido como um bloco padrão */
+    display: block; /* para ser exibido como um bloco padrão separado  da outra div#ormulario*/
 
     /* comandos para aparecer a foto */
     background:#5f2c82 url(../imagens/imagenlogin.jpg) no-repeat;
@@ -55,7 +61,8 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    display: block; /* para er exibido como um bloco padrão */
+    display: block; /* para er exibido como um bloco padrão separado da outra div#imagem */
+
     display: block;
     padding: 10px;
     /* comando que bota espaço na margem do texto do formulario */

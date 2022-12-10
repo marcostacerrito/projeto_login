@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+/* Essas configurações são para TABLET*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d
+        , #5f2c82);
+        /* esses comando servem para mudar a cor da tela de fundo quando passa para tablet, é misturada as 2 cores de baixo para cima */
+
+    }
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        
+        /* esses comndos são para configurar cada div uma no lado da outra confome fica o layout na pagina */
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        
+    }
+}
+
+/* Essas configurações são para NOTEBOOK*/
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d
+        , #5f2c82);
+        /* esses comando servem para mudar a cor da tela de fundo quando passa para tablet, é misturada as 2 cores de baixo para cima */
+
+    }
+    section#login {
+        width: 950px; /* pra tela aumentar até esse px */
+    }
+
+    section#login >div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+    
+}
+
