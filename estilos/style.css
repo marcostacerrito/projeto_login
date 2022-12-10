@@ -4,3 +4,61 @@
     verde #49a09d
     lilás #5f2c82
 */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body , html {
+    background-color:#5f2c82 ;
+    height: 100vh;
+    width:100vw;
+}
+main { 
+    position:relative; /* para centralizar */
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    position: absolute ; /* comandos para deixar o quadro no meio da tela */
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);/* esse comando serve para puxar o quadro para cima */
+
+    overflow:hidden; /*comando de tudo que tiver fora da borda vai ficar escondido*/
+    
+    background-color: white;
+    width: 250px;
+    height: 500px;
+
+    border-radius:20px; /* arredondar os cantos */
+
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.45); /* comando para fazer sombra na volta do quadro */
+
+}
+
+section#login > div#imagem {
+    display: block; /* para er exibido como um bloco padrão */
+
+    /* comandos para aparecer a foto */
+    background:#5f2c82 url(../imagens/imagenlogin.jpg) no-repeat;
+    background-size: cover;
+
+    background-position: left bottom;/* pegar a imagem no lado esquerdo e em baixo  */
+
+    height: 150px; /* aumenta o campo da imagem */
+}
+
+section#login > div#formulario {
+    display: block; /* para er exibido como um bloco padrão */
+    display: block;
+    padding: 10px;
+    /* comando que bota espaço na margem do texto do formulario */
+
+
+}
