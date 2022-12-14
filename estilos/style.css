@@ -61,11 +61,19 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    display: block; /* para er exibido como um bloco padrão separado da outra div#imagem */
+    display: block; /* para ser exibido como um bloco padrão separado da outra div#imagem */
 
-    display: block;
     padding: 10px;
     /* comando que bota espaço na margem do texto do formulario */
 
+}
 
+div#formulario > h1 {
+    text-align: center; /* centraliza a  palavra login */
+
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
