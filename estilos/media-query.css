@@ -10,8 +10,11 @@
         /* esses comando servem para mudar a cor da tela de fundo quando passa para tablet, é misturada as 2 cores de baixo para cima */
 
     }
-    section#login {
+    section#login { /* comando serve para diminuir e aumentar a tela de layout  do login quando for para Tablet */
         width: 90vw;
+        height: 280px;
+
+
     }
 
     section#login > div#imagem {
@@ -38,8 +41,9 @@
         /* esses comando servem para mudar a cor da tela de fundo quando passa para tablet, é misturada as 2 cores de baixo para cima */
 
     }
-    section#login {
+    section#login { /* comando serve para diminuir e aumentar a tela de layout  do login quando for para Tablet */
         width: 950px; /* pra tela aumentar até esse px */
+        height: 400px;
     }
 
     section#login >div#imagem {
@@ -59,7 +63,8 @@
 
     div#formulario > p {
         font-size: 1.2em;
-        /* para aumentara letra do texto */
+        /* para aumentar a letra do texto */
+        margin: 10px 0px;
     }
     
 }
